@@ -11,6 +11,11 @@ In order to actually use the goldfish tank you have built, you must maintain it.
 ## Problem C: Determining the Profit of the Goldfish Tank
 Using the solutions to problems A and B, determine the amount of profit you can gain by selling the fish in the tank.
 
+## Problem D: 
+In problem C, you calculated the user's profit for selling their goldfish. In that problem you were guaranteed that there would always be a positive profit. Adjust your program to allow for cases where the user either breaks even or loses money.
+
+## Problem E:
+Edit the program from problem A to allow the user to try multiple scenarios. Before each case, ask the user if they would like to enter new data or quit. If they want to enter new data, allow them to do so and simply output the profit/loss for that case. If they want to quit, the program should terminate.
 
 ## Input Specification
 1. The length, width and height of the tank will be positive integers.
@@ -22,20 +27,22 @@ Output everything to two decimal places.
 
 ```
 Example 1:
+Would you like to calculate your fish tank profit(1=Yes, 0=No)? 1
 What is the length of your goldfish tank (in inches)?: 24
 What is the width of your goldfish tank (in inches)?: 12
 What is the height of your goldfish tank (in inches)?: 16
 
 Your goldfish tank costs $28.80 to build, and $23.04 to maintain.
 Your profit from selling 18 goldfish is $38.16.
-```
+------------------
+Would you like to calculate your fish tank profit(1=Yes, 0=No)? 1
+What is the length of your goldfish tank (in inches)?: 6
+What is the width of your goldfish tank (in inches)?: 6
+What is the height of your goldfish tank (in inches)?: 6
 
-```
-Example 2:
-What is the length of your goldfish tank (in inches)?: 96
-What is the width of your goldfish tank (in inches)?: 12
-What is the height of your goldfish tank (in inches)?: 26
-
-Your goldfish tank costs $135.36 to build, and $149.76 to maintain.
-Your profit from selling 119 goldfish is $309.88.
+Your goldfish tank costs $3.60 to build, and $1.08 to maintain.
+Your loss from selling goldfish is $-4.68.
+------------------
+Would you like to calculate your fish tank profit(1=Yes, 0=No)? 0
+Thank you for using the fish tank program, goodbye!
 ```
