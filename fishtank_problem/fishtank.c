@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 #define GLASS_COST 0.02
+#define MAINTENANCE_COST 0.005
 
 int main(void){
-    // Prompt the user for the length, width and height (inches)
+    // Part A ********************************************************
     int l, w, h;
-
+    
+    // Prompt the user for the length, width and height (inches)
     printf("What is the length of your goldfish tank (in inches)?: ");
     scanf("%d", &l); 
     printf("What is the width of your goldfish tank (in inches)?: ");
@@ -23,7 +25,14 @@ int main(void){
     // 2. Mulitply surface area by glass cost to find total fishtank cost
     double tank_cost = GLASS_COST * surface_area;
 
-    printf("Your goldfish tank costs $%.2lf to build.\n", tank_cost);
+    printf("\nYour goldfish tank costs $%.2lf to build.\n", tank_cost);
     
+    /* Part B ********************************************************
+    Find the maintenance cost of the tank by multiplying volume by the maintenance cost of 0.005/in^2 */
+
+    double maintenance_cost = (l * w * h) * MAINTENANCE_COST;
+
+    printf("The goldfish tank costs $%.2lf to maintain.\n", maintenance_cost);
+
     return 0;
 }
