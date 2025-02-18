@@ -11,10 +11,10 @@ In order to actually use the goldfish tank you have built, you must maintain it.
 ## Problem C: Determining the Profit of the Goldfish Tank
 Using the solutions to problems A and B, determine the amount of profit you can gain by selling the fish in the tank.
 
-## Problem D: 
+## Problem D: Fishtank that might lose money
 In problem C, you calculated the user's profit for selling their goldfish. In that problem you were guaranteed that there would always be a positive profit. Adjust your program to allow for cases where the user either breaks even or loses money.
 
-## Problem E:
+## Problem E: Fishtank w/repetition
 Edit the program from problem A to allow the user to try multiple scenarios. Before each case, ask the user if they would like to enter new data or quit. If they want to enter new data, allow them to do so and simply output the profit/loss for that case. If they want to quit, the program should terminate.
 
 ## Input Specification
