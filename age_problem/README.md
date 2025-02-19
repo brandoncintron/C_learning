@@ -18,10 +18,8 @@ There are X days in between 1/1/Y and 1/1/Z.
 
 ```
 Example 1:
-What is the starting year of your time period?
-2003
-What is the ending year of your time period?
-2005
+What is the starting year of your time period? 2003
+What is the ending year of your time period? 2005
 There are 731 days in between 1/1/2003 and 1/1/2005.
 ```
 
