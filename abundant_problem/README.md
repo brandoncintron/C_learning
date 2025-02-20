@@ -8,8 +8,7 @@ Write  a  program  that  reads  in  a  list  of  numbers  from  a  file,  and  f
 Read your data from a file named, “numbers.txt”. The format for this file is specified in the section below titled, “Input Specification.”
 
 ## Input Specification
-1. The first integer line of the file will be a positive integer, n (less than 1000), indicating the number of test cases in the file. 
-2. The next n lines will contain a single positive integer each (less than 10000), with the number you are to determine is abundant or not for that test case.
+1. The lines will contain a single positive integer each (less than 10000), with the number you are to determine is abundant or not for that test case.
 
 ## Output Specification
 Output a line with one of the two the following formats for each test case: 
